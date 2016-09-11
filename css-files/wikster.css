@@ -1,4 +1,12 @@
 /*Wikster CSS file*/
+
+/*things to fix:
+1. Header is not behaving like a separate entity - logo is part of it but the main nav is not-formatting it like the footer
+2. Centering the title section in the image
+3. Moving the buttons and formatting them
+4. Responsive webpage
+*/
+
 html {
   min-height: 100%;
 }
@@ -49,5 +57,66 @@ h1 {
 
 a {
   text-decoration: none;
+}
+header a {
   color: white;
+}
+
+.content {
+  text-align: center;
+}
+
+.info-section {
+  margin-top: 6em;
+}
+
+.info {
+  max-width: 75%;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  float: left;
+  max-width: 60%;
+}
+
+.info-text {
+  max-width: 32%;
+  float: right;
+  margin: 4%;
+}
+
+.text {
+  margin: 0;
+}
+
+.last {
+  margin-bottom: 4em;
+}
+
+footer {
+  max-width: 3em;
+}
+
+.copy {
+  display: inline-block;
+}
+
+.final-links {
+  position: absolute;
+  right: 0em;
+  display: inline-block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
 }
