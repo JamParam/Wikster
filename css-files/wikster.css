@@ -138,6 +138,7 @@ header a {
   content: "";
   display: table;
   clear: both;
+  margin-bottom: 6em;
 }
 
 img {
