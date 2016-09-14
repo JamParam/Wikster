@@ -1,9 +1,7 @@
 /*Wikster CSS file*/
 
 /*things to fix:
-1. Header is not behaving like a separate entity - logo is part of it but the main nav is not-formatting it like the footer
-2. Moving the buttons and formatting them
-3. Responsive webpage
+1. Responsive webpage
 */
 
 html {
@@ -144,12 +142,14 @@ header a {
 img {
   float: left;
   max-width: 60%;
+  height: 19.5em;
 }
 
 .info-text {
   max-width: 32%;
   float: right;
   margin: 4%;
+  margin-bottom: 0%;
 }
 
 .text {
