@@ -1,11 +1,12 @@
 /*Wikster CSS file*/
 
-/*things to fix:
-1. Contents section
-2. Change padding and margins to shorthand
-3. Group by section eg. header, footer etc
-4. Organise property: value pairs
-
+/*CONTENTS
+1. General styles (Apply over the whole webpage)
+2. Main homepage styles
+3. Header (on the main homepage)
+4. Content on the main homepage
+5. Content in the information section
+6. Footer
 */
 
 /* General styles*/
@@ -91,7 +92,7 @@ a:hover {
   font-size: 1.4em;
 }
 
-/* Content main homepage */
+/* Content in main homepage */
 .title {
   position: relative;
   top: 30vh;
@@ -133,7 +134,7 @@ a:hover {
   line-height: 1.3em;
 }
 
-/* Content information section */
+/* Content in information section */
 .info-section {
   margin: 6em auto 6em auto;
 }
